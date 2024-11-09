@@ -1,0 +1,38 @@
+.get_started{
+  background-color: rgb(121, 82, 179);
+  height: 50px;
+  width: 150px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 12px;
+  transition:background-color 0.15s;
+}
+.get_started:hover{
+  background-color: rgb(86, 49, 142);
+}
+.get_started:active{
+  background-color: rgb(60, 25, 112) ;
+}
+
+  .download_button{
+    background-color: rgb(255, 255, 255);
+    color:rgb(108, 117, 125);
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    border-color: rgb(108, 117, 125);;
+    border-style: solid;
+    font-size: 15px;
+    font-weight: bold;
+    transition: background-color 0.15s,
+    color 0.15s ,opacity 0.15s;
+  }
+  .download_button:hover{
+    background-color: rgb(108, 117, 125);
+    color: rgb(255, 255, 255);
+  }
+  .download_button:active{
+    opacity: 0.7;
+  }
