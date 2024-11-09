@@ -1,0 +1,15 @@
+.uber_button{
+  background-color: black;
+  color: white;
+  border: none;
+  height: 50px;
+  width: 150px;
+  font-size: 18px;
+  transition: opacity 0.15s;
+}
+.uber_button:hover{
+  opacity: 0.7;
+}
+.uber_button:active{
+  opacity: 0.3;
+}
