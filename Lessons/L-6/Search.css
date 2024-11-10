@@ -1,0 +1,11 @@
+.input_btn{
+
+  height: 30px;
+  border-width: 1px;
+  border-radius: 12px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+}
