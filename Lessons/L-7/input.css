@@ -1,0 +1,10 @@
+.name{
+  color: rgb(26, 216, 216);
+  display: block;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.email{
+  display: inline-block;
+  font-size: 22px;
+}
