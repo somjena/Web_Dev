@@ -1,0 +1,15 @@
+.para{
+  font-size: 20px;
+  display: inline-block;
+  width: 200px;
+  vertical-align: middle;
+}
+.st,.nd{
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  
+  
+
+}
