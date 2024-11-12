@@ -1,3 +1,10 @@
 .thumbnail{
   width: 300px;
 }
+.Video-preview{
+  width: 300px;
+  display: inline-block;
+}
+.searchbox{
+  display: block;
+}
