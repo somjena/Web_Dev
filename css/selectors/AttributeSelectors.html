@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Attribute Selector</title>
+</head>
+<body>
+  <h1 align="left"> Attribute Selector in left</h1>
+  <h1 align="right"> Attribute Selector in center</h1>
+  <h1 align="center"> Attribute Selector in right</h1>
+  
+</body>
+<style>
+  h1[align=left]{
+    padding-right: 20px;
+    color: greenyellow;
+    display: inline-block;
+  }
+  h1[align=right]{
+    padding-right: 20px;
+    display:inline-block;
+    color: orange;
+  }
+  h1[align=center]{
+    display:inline-block;
+    color: rgb(212, 0, 255);
+  }
+</style>
+</html>
