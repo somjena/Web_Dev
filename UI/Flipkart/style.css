@@ -1,0 +1,120 @@
+
+*{
+  margin: 0px;
+}
+body{
+  background-color: rgb(219, 215, 215);
+}
+button{
+  justify-content: space-around;
+  width: 200px;
+  margin-top: 10px;
+  display: flex;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  padding: 12px;
+  border-radius: 10px;
+}
+div{
+  margin: 10px;
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-left: 160px;
+  margin-right: 160px;
+  background-color: white;
+
+}
+h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 0px;
+  font-size: 12px;
+}
+input{
+  background-color:aliceblue;
+  width: 700px;
+  padding:17px;
+  margin-top: 1px;
+  margin-left: 30px;
+  border: none;
+  border-color: aliceblue;
+  border-radius: 12px;
+}
+.Header{
+  display: flex;
+  margin-left: 300px;
+}
+.st{
+  
+
+
+}
+.Header{
+  
+  background-color: white;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  height: 70px;
+  
+}
+.logo{
+  margin-left: 300px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: rgb(41, 41, 253);
+
+}
+.slide-div{
+  
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+ 
+  
+}
+.Electronics-div{
+  background-color: white;
+  height: 300px;
+  display: flex;
+  margin-left: 160px;
+  margin-right: 160px;
+  justify-content: space-between;
+  
+
+}
+.product-container{
+  border:rgb(96, 96, 96);
+  border: 1px;
+  height: 260px;
+  
+  border-style: solid;
+  width: 150px;
+  justify-content: center;
+  object-fit: contain;
+  
+  
+
+  
+}
+.product-1{
+    width: 70px;
+    padding: 30px;
+    object-position: center;
+ 
+
+}
+p{
+  margin-bottom: 20px;
+  margin-left: 7px;
+}
+span{
+  font-weight: bold;
+  
+}
+
+
