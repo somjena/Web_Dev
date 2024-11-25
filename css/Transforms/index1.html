@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Box Transforms</title>
+</head>
+<style>
+  .container{
+    position: relative;
+  }
+  .items{
+    margin-top: 400px;
+    margin-left: 700px;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+    position: absolute;
+    transition: all linear 2s 0s;
+
+    
+   
+  }
+  .one{
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: rgb(4, 241, 229);
+   
+  }
+  .two{
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: greenyellow;
+  }
+  .three{
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: gold;
+  }
+  .four{
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: violet;
+  }
+  .container:hover  .one{
+    transform: translateX(-200px) rotate(360deg);
+  }
+  .container:hover  .two{
+    transform: translateX(200px) rotate(360deg);
+  }
+  .container:hover  .three{
+    transform: translateY(-200px) rotate(360deg);
+  }
+  .container:hover  .four{
+    transform: translateY(200px) rotate(360deg);
+  }
+  
+
+</style>
+<body>
+  <div class="container">
+  <div class="items one"></div>
+  <div class="items two"></div>
+  <div class="items three"></div>
+  <div class="items four"></div>
+</div>
+</body>
+</html>
