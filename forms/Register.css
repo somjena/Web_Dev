@@ -1,0 +1,84 @@
+
+  *{
+  margin: 0px;
+}
+body{
+  background-color: black;
+}
+form{
+  
+  width: 400px;
+}
+.main{
+  
+  margin:200px auto;
+  width: 300px;
+  text-align: center;
+}
+fieldset{
+ 
+  
+  border: 2px solid rgb(255, 255, 255);
+}
+.fields{
+  margin-top: 10px;
+  
+}
+.form-btn{
+  width: 217px;
+  padding: 5px;
+  color: aliceblue;
+  background-color: orange;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+input{
+  padding: 5px;
+  width: 200px;
+}
+p::first-letter{
+  color: orange;
+}
+p{
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+}
+.ele{
+  color: white;
+}
+nav{
+margin-left: 100px;
+display: flex;
+justify-content: start;
+margin-top: 20px;
+font-size: 20px;
+}
+.ele{
+align-items: start;
+
+}
+.component{
+margin-left: 600px;
+display: flex;
+color: white ;
+align-items: center;  
+
+}
+.cele{
+margin-right: 120px; 
+}
+.btn-div{
+margin-left: 200px;
+}
+button{
+color: white;
+background-color: orange;
+width: 100px;
+height: 30px;
+border: none;
+border-radius: 10px;
+}
+
+
