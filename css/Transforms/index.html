@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <title>Using the Translate</title>
+</head>
+<style>
+ .item1{
+  background-color: greenyellow;
+  width: 200px;
+  height: 200px;
+  transition: all 2s linear 0s;
+ }
+ .item2{
+  background-color: goldenrod;
+  width: 200px;
+  height: 200px;
+  transition: all 2s linear 0s;
+ }
+ .item1:hover{
+  transform: translateX(200px);
+ }
+ .item2:hover{
+  transform: translateX(-200px);
+ }
+ .container{
+  margin-left: 700px;
+  margin-top: 200px;
+ }
+
+</style>
+<body>
+  <div class="container">
+    <div class="item1"></div>
+    <div class="item2" ></div>
+  </div>
+</body>
+</html>
